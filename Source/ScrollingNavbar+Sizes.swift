@@ -18,7 +18,7 @@ extension ScrollingNavigationController {
   
   var statusBarHeight: CGFloat {
     var statusBarHeight = UIApplication.shared.statusBarFrame.size.height
-    if #available(iOS 11.0, *) {
+    if #available(iOS 11.0, *), UIApplication.shared.delegate?.window??.responds(to: #selector(getter: UIWindow.safeAreaInsets)) == true {
       // Account for the notch when the status bar is hidden
       statusBarHeight = max(UIApplication.shared.statusBarFrame.size.height, UIApplication.shared.delegate?.window??.safeAreaInsets.top ?? 0)
     }
@@ -39,9 +39,7 @@ extension ScrollingNavigationController {
   }
   
   func scrollView() -> UIScrollView? {
-    if let webView = self.scrollableView as? UIWebView {
-      return webView.scrollView
-    } else if let wkWebView = self.scrollableView as? WKWebView {
+    if let wkWebView = self.scrollableView as? WKWebView {
       return wkWebView.scrollView
     } else {
       return scrollableView as? UIScrollView
