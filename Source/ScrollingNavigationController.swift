@@ -585,7 +585,7 @@ open class ScrollingNavigationController: UINavigationController, UIGestureRecog
   private func updateNavbarAlpha() {
     guard let navigationItem = topViewController?.navigationItem else { return }
 
-    let frame = navigationBar.frame
+    let _ = navigationBar.frame
 
     // Change the alpha channel of every item on the navbr
     let alpha = 1 - percentage
