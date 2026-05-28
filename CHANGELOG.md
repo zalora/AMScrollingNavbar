@@ -2,6 +2,11 @@
 All notable changes to this project will be documented in this file.
 `AMScrollingNavbar` adheres to [Semantic Versioning](http://semver.org/).
 
+- `5.7.x` Releases - [5.7.0](#570) | [5.7.1](#571) | [5.7.2](#572) | [5.7.3](#573)  
+- `5.6.x` Releases - [5.6.0](#560) | [5.6.1](#561)  
+- `5.5.x` Releases - [5.5.0](#550) | [5.5.1](#551) | [5.5.2](#552)  
+- `5.4.x` Releases - [5.4.0](#540) | [5.4.1](#541)  
+- `5.3.x` Releases - [5.3.0](#530)  
 - `5.2.x` Releases - [5.2.0](#520)  
 - `5.1.x` Releases - [5.1.0](#510) | [5.1.1](#511)  
 - `5.0.x` Releases - [5.0.0](#500) | [5.0.1](#501) | [5.0.2](#502) | [5.0.3](#503) | [5.0.4](#504)  
@@ -20,6 +25,55 @@ All notable changes to this project will be documented in this file.
 - `1.5.x` Releases - [1.5](#15) | [1.5.1](#151)
 
 ---
+
+## [5.7.3](https://github.com/andreamazz/AMScrollingNavbar/releases/tag/5.7.3)
+
+- Fix issue introduced in #399    
+
+## [5.7.2](https://github.com/andreamazz/AMScrollingNavbar/releases/tag/5.7.2)
+
+- Merged #401 (Thanks to [@feef](https://github.com/feef))   
+
+## [5.7.1](https://github.com/andreamazz/AMScrollingNavbar/releases/tag/5.7.1)
+
+- Merged #398 (Thanks to [@mark-dlc](https://github.com/mark-dlc))   
+
+## [5.7.0](https://github.com/andreamazz/AMScrollingNavbar/releases/tag/5.7.0)
+
+- Merged #392 
+
+## [5.6.0](https://github.com/andreamazz/AMScrollingNavbar/releases/tag/5.6.0)
+
+- Merged #386
+- Added `Package.swift` 
+
+## [5.5.2](https://github.com/andreamazz/AMScrollingNavbar/releases/tag/5.5.2)
+
+- Merged #378  
+
+## [5.5.1](https://github.com/andreamazz/AMScrollingNavbar/releases/tag/5.5.1)
+
+- Fixed `scrollToTop` implementation 
+
+## [5.5.0](https://github.com/andreamazz/AMScrollingNavbar/releases/tag/5.5.0)
+
+- Added `scrollToTop` optional parameter to the `showNavbar` call 
+- Fixed #377 
+- Fixed #363 
+- Fixed #302 
+
+## [5.4.1](https://github.com/andreamazz/AMScrollingNavbar/releases/tag/5.4.1)
+
+- Merged #374  
+
+## [5.4.0](https://github.com/andreamazz/AMScrollingNavbar/releases/tag/5.4.0)
+
+#### Breaking change:
+- Remove deprecated `UIWebView` reference
+
+## [5.3.0](https://github.com/andreamazz/AMScrollingNavbar/releases/tag/5.3.0)
+
+- Merge #365 
 
 ## [5.2.0](https://github.com/andreamazz/AMScrollingNavbar/releases/tag/5.2.0)
 
